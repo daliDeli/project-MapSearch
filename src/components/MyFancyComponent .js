@@ -31,7 +31,6 @@ export default class MyFancyComponent extends React.PureComponent {
         this.setState({
             coordinates
         })
-        console.log(this.state.coordinates);
 
     }
     render() {
@@ -50,46 +49,46 @@ export default class MyFancyComponent extends React.PureComponent {
                         Choose a country and we will show you its capital
                 </h4>
                     <div className="col s12 m3">
-                        <a className="waves-effect waves-light btn france" onClick={() => this.changeCapital({
+                        <a className="waves-effect waves-light btn france" onClick={() => this.changeCapital({ 
                             lat: 48.856614,
                             lng: 2.352222
-                        })}></a>
+                        })}> </a>
                     </div>
                     <div className="col s12 m3">
                         <a className="waves-effect waves-light btn ireland" onClick={() => this.changeCapital({
                             lat: 53.349805,
                             lng: -6.260310
-                        })}></a>
+                        })}> </a>
                     </div>
                     <div className="col s12 m3">
                         <a className="waves-effect waves-light btn belgium" onClick={() => this.changeCapital({
                             lat: 50.850346,
                             lng: 4.351721
-                        })}></a>
+                        })}> </a>
                     </div>
                     <div className="col s12 m3">
                         <a className="waves-effect waves-light btn estonia" onClick={() => this.changeCapital({
                             lat: 59.436961,
                             lng: 24.753575
-                        })}></a>
+                        })}> </a>
                     </div>
                     <div className="col s12 m3">
                         <a className="waves-effect waves-light btn austria" onClick={() => this.changeCapital({
                             lat: 48.208174,
                             lng: 16.373819
-                        })}></a>
+                        })}> </a>
                     </div>
                     <div className="col s12 m3">
                         <a className="waves-effect waves-light btn spain" onClick={() => this.changeCapital({
                             lat: 40.416775,
                             lng: -3.703790
-                        })}></a>
+                        })}> </a>
                     </div>
                     <div className="col s12 m3">
                         <a className="waves-effect waves-light btn ukraine" onClick={() => this.changeCapital({
                             lat: 50.450100,
                             lng: 30.523400
-                        })}></a>
+                        })}> </a>
                     </div>
                     <div className="col s12 m3">
                     <a className="btn bwaves-effect waves-light btn" onClick={() => this.changeCapital({
